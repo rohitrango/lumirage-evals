@@ -1,0 +1,11 @@
+{
+    "loader":"OASISPatches",
+    "shape":[1, 160, 224, 192], 
+    "transform":[
+        {"class_name":"Nifti2Array"},
+        {"class_name":"DatatypeConversion"},
+        {"class_name":"RangeNormalize"}, 
+        {"class_name":"ToTensor"}
+    ],
+    "data_root": "/data/vedant/synthetic_data_prep"
+}

@@ -1,0 +1,1223 @@
+{
+    "loader": "Pairwise",
+    "shape": [
+        1,
+        224,
+        224,
+        160
+    ],
+    "labels": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "transform": [
+        {
+            "class_name": "Reorient",
+            "orientation": "RAS"
+        },
+        {
+            "class_name": "Nifti2Array"
+        },
+        {
+            "class_name": "DatatypeConversion"
+        },
+        {
+            "class_name": "RangeNormalize"
+        },
+        {
+            "class_name": "ToTensor"
+        }
+    ],
+    "pairs": [
+        {
+            "id": 1,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 2,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 3,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 4,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 5,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 6,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 7,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 8,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 9,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 10,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 11,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 12,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 13,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 14,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 15,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 16,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 17,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 18,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 19,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 20,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 21,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 22,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 23,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 24,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 25,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 26,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 27,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 1
+        },
+        {
+            "id": 28,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 29,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 1
+        },
+        {
+            "id": 30,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 31,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 32,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 33,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 34,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 35,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 36,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 37,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 38,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 39,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 40,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 41,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 42,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 43,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 44,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 45,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 46,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 47,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 48,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 49,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 50,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 51,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 52,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 53,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 54,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 55,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 56,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 57,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 58,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 1
+        },
+        {
+            "id": 59,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 60,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 61,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 62,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 1
+        },
+        {
+            "id": 63,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 64,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 65,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 66,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 67,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 68,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 69,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 70,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 71,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 72,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 73,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 74,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 75,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 76,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 77,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 78,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 79,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 80,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 1
+        },
+        {
+            "id": 81,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 82,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 83,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 1
+        },
+        {
+            "id": 84,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 85,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 86,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 87,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 88,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 1,
+            "m_modality": 2
+        },
+        {
+            "id": 89,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 90,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 91,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 92,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 93,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 94,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 95,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 96,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 97,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 98,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 99,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 100,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 101,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 102,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 103,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 104,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 105,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 106,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 107,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 108,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 109,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 110,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 111,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 112,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 113,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 114,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 115,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 116,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 117,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 118,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 119,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 120,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 121,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 122,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-20_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-20_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 123,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-29_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-29_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 124,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-37_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-37_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 125,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-3_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-3_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 126,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-44_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-44_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 127,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-45_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-45_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 128,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-46_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-46_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 129,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-57_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-57_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 1
+        },
+        {
+            "id": 130,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-69_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-69_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 131,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-70_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-70_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        },
+        {
+            "id": 132,
+            "f_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-9_ses-1_skullstrip_1mm.nii",
+            "m_img": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_skullstrips/sub-73_ses-1_skullstrip_1mm.nii",
+            "f_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-9_ses-1_seg_1mm.nii",
+            "m_seg": "/mnt/rohit_data2/ultracortex/derivatives/processed_1mm_segmentations/sub-73_ses-1_seg_1mm.nii",
+            "f_modality": 2,
+            "m_modality": 2
+        }
+    ]
+}

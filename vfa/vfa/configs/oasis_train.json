@@ -1,0 +1,13 @@
+{
+    "loader": "OASIS",
+    "data_dir": "/mnt/rohit_data2/neurite-OASIS/",
+    "val_size": 20,
+    "shape": [1, 160, 192, 224],
+    "transform": [
+        {"class_name": "Resample", "target_res": [1.0, 1.0, 1.0]},
+        {"class_name": "Nifti2Array"},
+        {"class_name": "DatatypeConversion"},
+        {"class_name": "RandomFlip3d"},
+        {"class_name": "ToTensor"}
+    ]
+}
